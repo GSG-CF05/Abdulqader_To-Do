@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css"
+      integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p"
+      crossorigin="anonymous"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans+Thai+Looped:wght@100&family=Oswald:wght@200&family=Poppins:wght@100&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css" />
+    <title>Task Pro</title>
+  </head>
+  <body>
+  <div class="container">
+        <section class="addTask">
+          <h1>Task Pro 2000</h1>
+          <form class="submitForm">
+          <input
+              class="formInput"
+              type="text"
+              name="item"
+              placeholder="Please Enter Your Task"
+            />
+        <button class="formButton" type="submit">
+        <i class="fas fa-plus-circle"></i>
+        </button>
+        </form>
+        </section>
+        
+           <section class="actionTask">
+            <button class="deleteAll">Delete All Tasks</button>
+          </section>
+        
+          <section class="tasks">
+          <ul class="tasksList"></ul>
+    </section>
+    </div>
+    <script src="./script.js"></script>
+    </body>
+  </html>
